@@ -1,0 +1,49 @@
+body {
+    background-color: #fdf2d1;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-box {
+    background-color: black;
+    height: 333px;
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.breakfasts, .lunches, .dinners, .desserts {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.food-tab {
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    display: inline-flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.box {
+    height: 220px;
+    width: 250px;
+    text-align: center;
+}
