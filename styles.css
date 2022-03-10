@@ -47,3 +47,22 @@ a {
     width: 250px;
     text-align: center;
 }
+
+.social {
+    background-color: #fdf2d1;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    color: black;
+    background-color: #fdf2d1;
+    display: inline-flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
