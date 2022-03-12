@@ -26,26 +26,36 @@ a {
     background-repeat: no-repeat;
 }
 
+.top-box:hover {
+    height: 340px;
+}
+
 .breakfasts, .lunches, .dinners, .desserts {
     display: flex;
     justify-content: space-between;
     overflow-x: scroll;
+    height: 245px;
 }
 
 .food-tab {
     background-color: black;
     height: 200px;
     width: 250px;
-    display: inline-flex;
+    display: inline-block;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 50px;
 }
 
-.box {
+.food-tab:hover {
     height: 220px;
-    width: 250px;
+    width: 270px;
+}
+
+.box {
+    height: 230px;
+    width: 270px;
     text-align: center;
 }
 
@@ -55,6 +65,11 @@ a {
     width: 70px;
     background-size: cover;
     margin-top: 50px;
+}
+
+.social:hover {
+    height: 75px;
+    width: 75px;
 }
 
 .footer {
