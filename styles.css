@@ -21,24 +21,21 @@ a {
     text-decoration: none;
 }
 
-.tp {
-    background-color: #ac843b;
-    color: #fdf2d1;
-    margin-top: 0px;
-}
-
 .top-box {
-    background-color: black;
-    height: 333px;
-    width: 100%;
+    background-image: url("images/kitchen_cross_center_banner.webp");
+    background-color: #FFFDD0;;
+    border: 10px solid #ac843b;
+    height: 280px;
+    width: 97%;
     display: inline-block;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .top-box:hover {
-    height: 340px;
+    height: 290px;
 }
 
 .breakfasts, .lunches, .dinners, .desserts {
@@ -57,6 +54,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 50px;
+    border: 3px solid #ac843b;
 }
 
 .food-tab:hover {
