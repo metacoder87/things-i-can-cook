@@ -25,7 +25,7 @@ a {
     background-image: url("images/kitchen_cross_center_banner.webp");
     background-color: #FFFDD0;;
     border: 10px solid #ac843b;
-    height: 280px;
+    height: 200px;
     width: 97%;
     display: inline-block;
     background-size: contain;
@@ -35,7 +35,7 @@ a {
 }
 
 .top-box:hover {
-    height: 290px;
+    height: 220px;
 }
 
 .breakfasts, .lunches, .dinners, .desserts {
